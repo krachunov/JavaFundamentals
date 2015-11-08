@@ -7,7 +7,7 @@ public class Triangle extends PlaneShape {
 
 	@Override
 	public double getPerimeter() {
-		double c = Math.sqrt(()
+//		double c = Math.sqrt(()
 		// ab+bc+cd
 		return 0;
 	}
