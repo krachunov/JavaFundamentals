@@ -6,13 +6,13 @@ public class Circle extends PlaneShape {
 
 	@Override
 	public double getPerimeter() {
-		// TODO Auto-generated method stub
+		// 2*PI*radius
 		return 0;
 	}
 
 	@Override
 	public double getArea() {
-		// TODO Auto-generated method stub
+		// PI*r^2
 		return 0;
 	}
 

@@ -6,13 +6,13 @@ public class Rectangle extends PlaneShape {
 
 	@Override
 	public double getPerimeter() {
-		// TODO Auto-generated method stub
+		// 2/(width+height)
 		return 0;
 	}
 
 	@Override
 	public double getArea() {
-		// TODO Auto-generated method stub
+		// (width*height)
 		return 0;
 	}
 

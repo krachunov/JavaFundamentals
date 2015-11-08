@@ -7,13 +7,14 @@ public class Triangle extends PlaneShape {
 
 	@Override
 	public double getPerimeter() {
-		// TODO Auto-generated method stub
+		double c = Math.sqrt(()
+		// ab+bc+cd
 		return 0;
 	}
 
 	@Override
 	public double getArea() {
-		// TODO Auto-generated method stub
+		// (bc*height)/2
 		return 0;
 	}
 
