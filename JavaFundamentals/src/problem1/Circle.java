@@ -1,8 +1,9 @@
-package Problem1;
+package problem1;
 
-public class Triangle extends PlaneShape {
+public class Circle extends PlaneShape {
+	Vertices2D vertex;
+	double radius;
 
-	
 	@Override
 	public double getPerimeter() {
 		// TODO Auto-generated method stub

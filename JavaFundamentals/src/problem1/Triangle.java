@@ -1,8 +1,9 @@
-package Problem1;
+package problem1;
 
-public class Circle extends PlaneShape {
-	int vertex;
-	double radius;
+public class Triangle extends PlaneShape {
+	Vertices2D x;
+	Vertices2D y;
+	Vertices2D z;
 
 	@Override
 	public double getPerimeter() {

@@ -1,6 +1,8 @@
-package Problem1;
+package problem1;
 
 public class Rectangle extends PlaneShape {
+	Vertices2D x;
+	int width, height;
 
 	@Override
 	public double getPerimeter() {

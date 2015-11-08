@@ -1,4 +1,4 @@
-package Problem1;
+package problem1;
 
 public class Vertices2D {
 	private int x;
