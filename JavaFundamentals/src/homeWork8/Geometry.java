@@ -14,15 +14,29 @@ Rectangle – holds 1 vertex, width, height
  */
 package homeWork8;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import problem1.Circle;
+import problem1.MyShape;
 import problem1.Rectangle;
 import problem1.Triangle;
 
 public class Geometry {
 	public static void main(String[] args) {
 		Triangle triangle = new Triangle(0, 0, 0, 5, 10, 9);
-		System.out.println(triangle.toString());
-		System.out.println("-------------------------------");
 		Rectangle rectangle = new Rectangle(0, 0, 10, 5);
-		System.out.println(rectangle.toString());
+		Circle circle = new Circle(0, 0, 1.5);
+
+		List<MyShape> shapes = new ArrayList<>();
+		shapes.add(triangle);
+		shapes.add(rectangle);
+		shapes.add(circle);
+
+		for (MyShape myShape : shapes) {
+			System.out.println("---------------");
+			System.out.println(myShape.toString());
+		}
+
 	}
 }
