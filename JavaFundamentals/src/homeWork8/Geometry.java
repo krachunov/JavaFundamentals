@@ -14,6 +14,11 @@ Rectangle – holds 1 vertex, width, height
  */
 package homeWork8;
 
-public class Geometry {
+import problem1.Triangle;
 
+public class Geometry {
+	public static void main(String[] args) {
+		Triangle triangle = new Triangle(0, 0, 0, 5, 10, 9);
+		System.out.println(triangle.toString());
+	}
 }
