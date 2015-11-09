@@ -14,8 +14,8 @@ public class SquarePyramid extends SpaceShape {
 
 	@Override
 	public double getArea() {
-		// TODO Auto-generated method stub
-		return 0;
+		// TODO Surface Area = [Base Area] + 1 2 x Perimeter x [Slant Length]
+		return (baseWidth * 2) + (1 / 2) * (baseWidth * 4) * pyramidHeight;
 	}
 
 	@Override
