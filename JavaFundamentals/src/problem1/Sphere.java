@@ -4,9 +4,10 @@ public class Sphere extends SpaceShape {
 	Vertices3D vertex;
 	double radius;
 
-	public Sphere(Vertices3D vertex, double radius) {
+	public Sphere(int x, int y, int z, double radius) {
 		this.type = this.getClass().toString();
-		this.vertex = vertex;
+		this.vertex = new Vertices3D(x, y, z);
+		;
 		this.radius = radius;
 
 	}

@@ -5,9 +5,9 @@ public class Cuboid extends SpaceShape {
 	Vertices3D vertex;
 	int width, height, depth;
 
-	public Cuboid(Vertices3D vertex, int width, int height, int depth) {
+	public Cuboid(int x, int y, int z, int width, int height, int depth) {
 		this.type = this.getClass().toString();
-		this.vertex = vertex;
+		this.vertex = new Vertices3D(x, y, z);
 		this.width = width;
 		this.height = height;
 		this.depth = depth;

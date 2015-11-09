@@ -18,8 +18,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 import problem1.Circle;
+import problem1.Cuboid;
 import problem1.MyShape;
 import problem1.Rectangle;
+import problem1.Sphere;
+import problem1.SquarePyramid;
 import problem1.Triangle;
 
 public class Geometry {
@@ -27,11 +30,17 @@ public class Geometry {
 		Triangle triangle = new Triangle(0, 0, 0, 5, 10, 9);
 		Rectangle rectangle = new Rectangle(0, 0, 10, 5);
 		Circle circle = new Circle(0, 0, 1.5);
+		SquarePyramid squarePyramid = new SquarePyramid(0, 0, 0, 4, 8);
+		Cuboid cuboid = new Cuboid(0, 0, 0, 10, 15, 5);
+		Sphere sphere = new Sphere(0, 0, 0, 1.5);
 
 		List<MyShape> shapes = new ArrayList<>();
 		shapes.add(triangle);
 		shapes.add(rectangle);
 		shapes.add(circle);
+		shapes.add(squarePyramid);
+		shapes.add(cuboid);
+		shapes.add(sphere);
 
 		for (MyShape myShape : shapes) {
 			System.out.println("---------------");
