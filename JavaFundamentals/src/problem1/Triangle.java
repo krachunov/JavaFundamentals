@@ -38,6 +38,5 @@ public class Triangle extends PlaneShape {
 		return "Type: " + this.type + "\nVertices A/" + this.a
 				+ "\nVertices B/" + this.b + "\nVertices C/" + this.c
 				+ "\nparamiter: " + getPerimeter() + "\nArea: " + getArea();
-
 	}
 }

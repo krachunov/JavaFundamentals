@@ -14,14 +14,18 @@ public class Rectangle extends PlaneShape {
 
 	@Override
 	public double getPerimeter() {
-		// 2/(width+height)
-		return 0;
+		return 2 * (width + height);
 	}
 
 	@Override
 	public double getArea() {
-		// (width*height)
-		return 0;
+
+		return (width * height);
 	}
 
+	@Override
+	public String toString() {
+		return "Type: " + this.type + "\nVertices A/" + this.x
+				+ "\nparamiter: " + getPerimeter() + "\nArea: " + getArea();
+	}
 }
