@@ -15,14 +15,20 @@ public class Cuboid extends SpaceShape {
 
 	@Override
 	public double getArea() {
-		// TODO Auto-generated method stub
-		return 0;
+		return 2 * (width * height) + 2 * (height * depth) + 2
+				* (width * depth);
 	}
 
 	@Override
 	public double getVolume() {
-		// TODO Auto-generated method stub
-		return 0;
+		return width * height * depth;
 	}
 
+	@Override
+	public String toString() {
+		return "Type: " + this.type + "\nVertices A/" + this.vertex
+				+ " width: " + this.width + "height: " + this.height
+				+ " depth: " + this.depth + "\nvolume: " + getVolume()
+				+ "\nArea: " + getArea();
+	}
 }
