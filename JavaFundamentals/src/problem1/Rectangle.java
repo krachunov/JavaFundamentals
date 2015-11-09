@@ -1,7 +1,6 @@
 package problem1;
 
 public class Rectangle extends PlaneShape {
-	String type;
 	Vertices2D vertex;
 	double width, height;
 

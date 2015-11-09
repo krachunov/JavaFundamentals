@@ -1,7 +1,6 @@
 package problem1;
 
 public class Triangle extends PlaneShape {
-	String type;
 	Vertices2D a;
 	Vertices2D b;
 	Vertices2D c;
